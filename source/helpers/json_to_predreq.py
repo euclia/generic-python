@@ -30,6 +30,10 @@ from typing import Dict, Any
 
 
 def decode(dataset, additionl_info):
+
+    print("Dataset structure:")
+    print(dataset)
+
     input_series = additionl_info['fromUser']['inputSeries']
     independentFeatures = additionl_info['independentFeatures']
     shorted = []
@@ -41,11 +45,25 @@ def decode(dataset, additionl_info):
                 for feature in dataset['features']:
                     if feature['name'] == actual:
                         shorted.append(feature['key'])
-                # shorted.append(key)
+
+    print("Shorted keys:", shorted)
+
     dataEntryAll = []
-    for dataEntry in dataset['dataEntry']:
+    dataEntry = dataset['dataEntry']
+    print("DataEntry structure:", dataEntry)
+
+    if isinstance(dataEntry, dict) and 'values' in dataEntry:
+        values = dataEntry['values']
         dataEntryToInsert = []
         for key in shorted:
-            dataEntryToInsert.append(dataEntry['values'][key])
+            print(f"Accessing key: {key}, type: {type(key)}")
+            value = values.get(str(key))
+            print(f"Retrieved value: {value}")
+            if value is not None:
+                dataEntryToInsert.append(value)
         dataEntryAll.append(dataEntryToInsert)
+    else:
+        print(f"Unexpected dataEntry structure: {dataEntry}")
+
+    print(f"DataEntryAll: {dataEntryAll}")
     return dataEntryAll
