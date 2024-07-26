@@ -1,5 +1,4 @@
 FROM python:3.7
-MAINTAINER Pantelis Karatzas <pantelispanka@gmail.com>
 
 RUN pip install --upgrade pip
 RUN pip install tornado==4.2
@@ -14,8 +13,6 @@ EXPOSE 8002
 
 ADD source /generic-python/source
 ADD application.py /generic-python/application.py
-
-
 
 CMD ["python","/generic-python/application.py"]
 

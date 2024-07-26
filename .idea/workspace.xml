@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -22,6 +25,17 @@
     <list default="true" id="6397276c-4b4b-431f-832c-a17a0aa3b168" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/handlers/biclustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/handlers/biclustering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/handlers/clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/handlers/clustering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/handlers/ensemble.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/handlers/ensemble.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/handlers/nearestneighbours.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/handlers/nearestneighbours.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/handlers/neuralnetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/handlers/neuralnetwork.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/handlers/pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/handlers/pipeline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/handlers/regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/handlers/regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/handlers/svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/handlers/svm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/handlers/tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/handlers/tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/handlers/xgboost.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/handlers/xgboost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/helpers/json_to_predreq.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/helpers/json_to_predreq.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,18 +57,33 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="1kt9Ism2pmOSgYibwwZzqcV6sKj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="FullScreen" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.application.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/alex.arvanitidis/Projects/ntua/generic-python",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JSON"
+    ]
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/source" />
@@ -66,6 +95,7 @@
   <component name="RunManager" selected="Python.application">
     <configuration name="application" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="generic-python" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -73,9 +103,49 @@
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python3.8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="DockerContainerSettingsRunConfigurationExtension">
+        <option name="envVars">
+          <list />
+        </option>
+        <option name="extraHosts">
+          <list />
+        </option>
+        <option name="links">
+          <list />
+        </option>
+        <option name="networkDisabled" value="false" />
+        <option name="networkMode" value="bridge" />
+        <option name="portBindings">
+          <list />
+        </option>
+        <option name="publishAllPorts" value="false" />
+        <option name="runCliOptions" value="--entrypoint= --rm" />
+        <option name="version" value="2" />
+        <option name="volumeBindings">
+          <list>
+            <DockerVolumeBindingImpl>
+              <option name="containerPath" value="/opt/project" />
+              <option name="editable" value="true" />
+              <option name="hostPath" value="$PROJECT_DIR$" />
+              <option name="readOnly" value="false" />
+            </DockerVolumeBindingImpl>
+          </list>
+        </option>
+      </EXTENSION>
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/application.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -87,6 +157,7 @@
     </configuration>
     <configuration name="doa_calc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="generic-python" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -97,6 +168,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/helpers/doa_calc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -108,6 +180,7 @@
     </configuration>
     <configuration name="regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="generic-python" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -118,6 +191,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/handlers/regression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -129,6 +203,7 @@
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <module name="generic-python" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -136,6 +211,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
@@ -154,6 +230,14 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -165,8 +249,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540840068312</updated>
+      <workItem from="1721935325252" duration="8524000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -178,76 +266,9 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="403" height="466" key="DebuggerActiveHint" timestamp="1606510645209">
-      <screen x="0" y="25" width="1792" height="1036" />
-    </state>
-    <state width="403" height="466" key="DebuggerActiveHint/0.25.1792.1036@0.25.1792.1036" timestamp="1606510645209" />
-    <state x="653" y="304" key="FileChooserDialogImpl" timestamp="1608212577893">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="653" y="304" key="FileChooserDialogImpl/0.0.1792.1120@0.0.1792.1120" timestamp="1608212577893" />
-    <state width="2539" height="418" key="GridCell.Tab.0.bottom" timestamp="1612448594507">
-      <screen x="1102" y="-1440" width="2560" height="1440" />
-    </state>
-    <state width="1771" height="261" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607003615079" />
-    <state width="2225" height="300" key="GridCell.Tab.0.bottom/1102.-1415.2560.1415/0.25.1792.1095@1102.-1415.2560.1415" timestamp="1612442614794" />
-    <state width="2539" height="418" key="GridCell.Tab.0.bottom/1102.-1440.2560.1440/0.0.1792.1120@1102.-1440.2560.1440" timestamp="1612448594507" />
-    <state width="2539" height="418" key="GridCell.Tab.0.center" timestamp="1612448594506">
-      <screen x="1102" y="-1440" width="2560" height="1440" />
-    </state>
-    <state width="1771" height="261" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607003615079" />
-    <state width="2225" height="300" key="GridCell.Tab.0.center/1102.-1415.2560.1415/0.25.1792.1095@1102.-1415.2560.1415" timestamp="1612442614793" />
-    <state width="2539" height="418" key="GridCell.Tab.0.center/1102.-1440.2560.1440/0.0.1792.1120@1102.-1440.2560.1440" timestamp="1612448594506" />
-    <state width="2539" height="418" key="GridCell.Tab.0.left" timestamp="1612448594505">
-      <screen x="1102" y="-1440" width="2560" height="1440" />
-    </state>
-    <state width="1771" height="261" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607003615078" />
-    <state width="2225" height="300" key="GridCell.Tab.0.left/1102.-1415.2560.1415/0.25.1792.1095@1102.-1415.2560.1415" timestamp="1612442614792" />
-    <state width="2539" height="418" key="GridCell.Tab.0.left/1102.-1440.2560.1440/0.0.1792.1120@1102.-1440.2560.1440" timestamp="1612448594505" />
-    <state width="2539" height="418" key="GridCell.Tab.0.right" timestamp="1612448594507">
-      <screen x="1102" y="-1440" width="2560" height="1440" />
-    </state>
-    <state width="1771" height="261" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607003615079" />
-    <state width="2225" height="300" key="GridCell.Tab.0.right/1102.-1415.2560.1415/0.25.1792.1095@1102.-1415.2560.1415" timestamp="1612442614793" />
-    <state width="2539" height="418" key="GridCell.Tab.0.right/1102.-1440.2560.1440/0.0.1792.1120@1102.-1440.2560.1440" timestamp="1612448594507" />
-    <state width="2539" height="418" key="GridCell.Tab.1.bottom" timestamp="1612448634226">
-      <screen x="1102" y="-1415" width="2560" height="1415" />
-    </state>
-    <state width="1771" height="261" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1607003615082" />
-    <state width="1771" height="392" key="GridCell.Tab.1.bottom/0.25.1792.1036@0.25.1792.1036" timestamp="1606510629963" />
-    <state width="2539" height="418" key="GridCell.Tab.1.bottom/1102.-1415.2560.1415/0.25.1792.1095@1102.-1415.2560.1415" timestamp="1612448634226" />
-    <state width="2539" height="418" key="GridCell.Tab.1.bottom/1102.-1440.2560.1440/0.0.1792.1120@1102.-1440.2560.1440" timestamp="1612448594417" />
-    <state width="2539" height="418" key="GridCell.Tab.1.center" timestamp="1612448634225">
-      <screen x="1102" y="-1415" width="2560" height="1415" />
-    </state>
-    <state width="1771" height="261" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1607003615080" />
-    <state width="1771" height="392" key="GridCell.Tab.1.center/0.25.1792.1036@0.25.1792.1036" timestamp="1606510629962" />
-    <state width="2539" height="418" key="GridCell.Tab.1.center/1102.-1415.2560.1415/0.25.1792.1095@1102.-1415.2560.1415" timestamp="1612448634225" />
-    <state width="2539" height="418" key="GridCell.Tab.1.center/1102.-1440.2560.1440/0.0.1792.1120@1102.-1440.2560.1440" timestamp="1612448594415" />
-    <state width="2539" height="418" key="GridCell.Tab.1.left" timestamp="1612448634224">
-      <screen x="1102" y="-1415" width="2560" height="1415" />
-    </state>
-    <state width="1771" height="261" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1607003615080" />
-    <state width="1771" height="392" key="GridCell.Tab.1.left/0.25.1792.1036@0.25.1792.1036" timestamp="1606510629962" />
-    <state width="2539" height="418" key="GridCell.Tab.1.left/1102.-1415.2560.1415/0.25.1792.1095@1102.-1415.2560.1415" timestamp="1612448634224" />
-    <state width="2539" height="418" key="GridCell.Tab.1.left/1102.-1440.2560.1440/0.0.1792.1120@1102.-1440.2560.1440" timestamp="1612448594415" />
-    <state width="2539" height="418" key="GridCell.Tab.1.right" timestamp="1612448634226">
-      <screen x="1102" y="-1415" width="2560" height="1415" />
-    </state>
-    <state width="1771" height="261" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1607003615081" />
-    <state width="1771" height="392" key="GridCell.Tab.1.right/0.25.1792.1036@0.25.1792.1036" timestamp="1606510629963" />
-    <state width="2539" height="418" key="GridCell.Tab.1.right/1102.-1415.2560.1415/0.25.1792.1095@1102.-1415.2560.1415" timestamp="1612448634226" />
-    <state width="2539" height="418" key="GridCell.Tab.1.right/1102.-1440.2560.1440/0.0.1792.1120@1102.-1440.2560.1440" timestamp="1612448594416" />
-    <state x="261" y="157" width="1210" height="777" key="SettingsEditor" timestamp="1606509018417">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="261" y="157" width="1210" height="777" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1606509018417" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -296,5 +317,8 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/generic_python$application.coverage" NAME="application Coverage Results" MODIFIED="1721940083474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

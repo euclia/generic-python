@@ -66,4 +66,5 @@ class XGBoostHandler(tornado.web.RequestHandler):
                     preds.append(fPred)
                 j += 1
         finalAll = {"predictions": preds}
+        self.set_header("Content-Type", "application/json")
         self.write(json_encode(finalAll))
