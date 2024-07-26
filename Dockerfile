@@ -6,6 +6,9 @@ RUN pip install numpy
 RUN pip install scikit-learn==0.20.4
 RUN pip install pandas
 RUN pip install xgboost
+RUN pip install uvicorn
+RUN pip install fastapi
+RUN pip install pydantic
 
 # Expose the ports we're interested in
 EXPOSE 8002
