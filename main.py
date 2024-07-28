@@ -18,6 +18,9 @@ app.add_middleware(
     allow_headers=["*"]
 )
 
+@app.get('/')
+def health_check():
+    return {'status': 'UP'}
 
 @app.post("/predict/sklearn/")
 # def sklearn_model(req: PredictionRequest):
