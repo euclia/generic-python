@@ -3,11 +3,11 @@ name: Publish Docker image
 on:
   push:
     branches: [
-      "release/sk-learn0.20",
-      "release/sk-learn0.22",
-      "release/sk-learn0.23",
-      "release/sk-learn0.24",
-      "release/sk-learn1",
+      "release/sk-learn0.20*",
+      "release/sk-learn0.22*",
+      "release/sk-learn0.23*",
+      "release/sk-learn0.24*",
+      "release/sk-learn1*",
     ]
 
 jobs:
