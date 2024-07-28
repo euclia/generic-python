@@ -7,7 +7,9 @@ def SKLearnHandler(dataset: Dataset, rawModel: list, additionalInfo: dict, doaMa
 
     predFeatures = additionalInfo['predictedFeatures']
     rawModel = rawModel[0]
+    print('hello before')
     model = model_decoder.decode(rawModel)
+    print('hello after')
     dataEntryAll = json_to_predreq.decode(dataset, additionalInfo)
     a = None
     if doaMatrix and len(doaMatrix) > 0:

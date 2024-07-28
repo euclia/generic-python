@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,46 +23,84 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6397276c-4b4b-431f-832c-a17a0aa3b168" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/entities/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/entities/algorithm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/entities/dataentry.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/entities/dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/entities/entryid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/entities/error_report.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/entities/feature.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/entities/featureinfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/entities/jaqpot_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/entities/meta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/entities/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/entities/parameter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/entities/prediction_request.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/entities/task.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/handlers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/handlers/biclustering.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/handlers/clustering.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/handlers/ensemble.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/handlers/naivebayess.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/handlers/nearestneighbours.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/handlers/neuralnetwork.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/handlers/pipeline.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/handlers/regression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/handlers/sklearn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/handlers/svm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/handlers/tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/handlers/xgboost.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/doa_calc.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/json_to_predreq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/model_decoder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/helpers/predictions_encoder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/serializers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/json_to_predreq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/application.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xgboost/vcomp140.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile_old" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/entities/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/entities/algorithm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/algorithm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/entities/dataentry.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/dataentry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/entities/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/entities/entryid.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/entryid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/entities/error_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/error_report.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/entities/feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/feature.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/entities/featureinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/featureinfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/entities/jaqpot_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/jaqpot_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/entities/meta.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/meta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/entities/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/entities/parameter.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/parameter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/entities/prediction_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/prediction_request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/entities/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/biclustering.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/clustering.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/ensemble.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/naivebayess.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/naivebayess.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/nearestneighbours.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/neuralnetwork.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/pipeline.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/regression.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/sklearn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/svm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/tree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/handlers/xgboost.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/doa_calc.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/doa_calc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/json_to_predreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/model_decoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/model_decoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/helpers/predictions_encoder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/predictions_encoder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/serializers/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/serializers/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/entities/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/entities/algorithm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/entities/dataentry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/entities/dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/entities/entryid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/entities/error_report.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/entities/feature.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/entities/featureinfo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/entities/jaqpot_base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/entities/meta.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/entities/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/entities/parameter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/entities/prediction_request.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/entities/task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/handlers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/handlers/biclustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/biclustering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/handlers/clustering.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/clustering.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/handlers/ensemble.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/ensemble.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/handlers/naivebayess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/handlers/nearestneighbours.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/nearestneighbours.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/handlers/neuralnetwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/neuralnetwork.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/handlers/pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/pipeline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/handlers/regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/handlers/sklearn.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/sklearn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/handlers/svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/svm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/handlers/tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/handlers/xgboost.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/handlers/xgboost.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/helpers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/helpers/doa_calc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/helpers/json_to_predreq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/helpers/model_decoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/helpers/predictions_encoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/serializers/__init__.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,17 +123,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kt9Ism2pmOSgYibwwZzqcV6sKj" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="FullScreen" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.application.executor&quot;: &quot;Run&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/" />
@@ -104,9 +150,10 @@
       <recent name="$PROJECT_DIR$/source" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.application (1)">
+  <component name="RunManager" selected="Python.application">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="generic-python" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -117,6 +164,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -128,6 +176,7 @@
     </configuration>
     <configuration name="application" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="generic-python" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -135,9 +184,20 @@
       </envs>
       <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python3.8" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/application.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -149,6 +209,7 @@
     </configuration>
     <configuration name="doa_calc" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="generic-python" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -159,6 +220,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/helpers/doa_calc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -170,6 +232,7 @@
     </configuration>
     <configuration name="regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="generic-python" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -180,6 +243,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/handlers/regression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -191,6 +255,7 @@
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <module name="generic-python" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
@@ -198,21 +263,22 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.app" />
       <item itemvalue="Python.application" />
       <item itemvalue="Python.doa_calc" />
       <item itemvalue="Python.regression" />
-      <item itemvalue="Python.application (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.application (1)" />
         <item itemvalue="Python.application" />
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.regression" />
         <item itemvalue="Python.doa_calc" />
       </list>
@@ -242,104 +308,45 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="653" y="304" key="FileChooserDialogImpl" timestamp="1608212577893">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="653" y="304" key="FileChooserDialogImpl/0.0.1792.1120@0.0.1792.1120" timestamp="1608212577893" />
-    <state width="1771" height="318" key="GridCell.Tab.0.bottom" timestamp="1616266402128">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1771" height="318" key="GridCell.Tab.0.bottom/0.-1440.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1616266402128" />
-    <state width="2225" height="300" key="GridCell.Tab.0.bottom/1102.-1415.2560.1415/0.25.1792.1095@1102.-1415.2560.1415" timestamp="1612442614794" />
-    <state width="2539" height="418" key="GridCell.Tab.0.bottom/1102.-1440.2560.1440/0.0.1792.1120@1102.-1440.2560.1440" timestamp="1612448594507" />
-    <state width="1771" height="318" key="GridCell.Tab.0.center" timestamp="1616266402126">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1771" height="318" key="GridCell.Tab.0.center/0.-1440.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1616266402126" />
-    <state width="2225" height="300" key="GridCell.Tab.0.center/1102.-1415.2560.1415/0.25.1792.1095@1102.-1415.2560.1415" timestamp="1612442614793" />
-    <state width="2539" height="418" key="GridCell.Tab.0.center/1102.-1440.2560.1440/0.0.1792.1120@1102.-1440.2560.1440" timestamp="1612448594506" />
-    <state width="1771" height="318" key="GridCell.Tab.0.left" timestamp="1616266402125">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1771" height="318" key="GridCell.Tab.0.left/0.-1440.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1616266402125" />
-    <state width="2225" height="300" key="GridCell.Tab.0.left/1102.-1415.2560.1415/0.25.1792.1095@1102.-1415.2560.1415" timestamp="1612442614792" />
-    <state width="2539" height="418" key="GridCell.Tab.0.left/1102.-1440.2560.1440/0.0.1792.1120@1102.-1440.2560.1440" timestamp="1612448594505" />
-    <state width="1771" height="318" key="GridCell.Tab.0.right" timestamp="1616266402127">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1771" height="318" key="GridCell.Tab.0.right/0.-1440.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1616266402127" />
-    <state width="2225" height="300" key="GridCell.Tab.0.right/1102.-1415.2560.1415/0.25.1792.1095@1102.-1415.2560.1415" timestamp="1612442614793" />
-    <state width="2539" height="418" key="GridCell.Tab.0.right/1102.-1440.2560.1440/0.0.1792.1120@1102.-1440.2560.1440" timestamp="1612448594507" />
-    <state width="1771" height="214" key="GridCell.Tab.1.bottom" timestamp="1616265278466">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1771" height="214" key="GridCell.Tab.1.bottom/0.-1440.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1616265278466" />
-    <state width="2539" height="418" key="GridCell.Tab.1.bottom/1102.-1415.2560.1415/0.25.1792.1095@1102.-1415.2560.1415" timestamp="1612448634226" />
-    <state width="2539" height="418" key="GridCell.Tab.1.bottom/1102.-1440.2560.1440/0.0.1792.1120@1102.-1440.2560.1440" timestamp="1612448594417" />
-    <state width="1771" height="214" key="GridCell.Tab.1.center" timestamp="1616265278465">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1771" height="214" key="GridCell.Tab.1.center/0.-1440.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1616265278465" />
-    <state width="2539" height="418" key="GridCell.Tab.1.center/1102.-1415.2560.1415/0.25.1792.1095@1102.-1415.2560.1415" timestamp="1612448634225" />
-    <state width="2539" height="418" key="GridCell.Tab.1.center/1102.-1440.2560.1440/0.0.1792.1120@1102.-1440.2560.1440" timestamp="1612448594415" />
-    <state width="1771" height="214" key="GridCell.Tab.1.left" timestamp="1616265278464">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1771" height="214" key="GridCell.Tab.1.left/0.-1440.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1616265278464" />
-    <state width="2539" height="418" key="GridCell.Tab.1.left/1102.-1415.2560.1415/0.25.1792.1095@1102.-1415.2560.1415" timestamp="1612448634224" />
-    <state width="2539" height="418" key="GridCell.Tab.1.left/1102.-1440.2560.1440/0.0.1792.1120@1102.-1440.2560.1440" timestamp="1612448594415" />
-    <state width="1771" height="214" key="GridCell.Tab.1.right" timestamp="1616265278466">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state width="1771" height="214" key="GridCell.Tab.1.right/0.-1440.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1616265278466" />
-    <state width="2539" height="418" key="GridCell.Tab.1.right/1102.-1415.2560.1415/0.25.1792.1095@1102.-1415.2560.1415" timestamp="1612448634226" />
-    <state width="2539" height="418" key="GridCell.Tab.1.right/1102.-1440.2560.1440/0.0.1792.1120@1102.-1440.2560.1440" timestamp="1612448594416" />
-    <state x="405" y="196" key="SettingsEditor" timestamp="1616266073648">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="405" y="196" key="SettingsEditor/0.-1440.2560.1440/0.0.1792.1120@0.0.1792.1120" timestamp="1616266073648" />
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/source/handlers/xgboost.py</url>
+          <url>file://$PROJECT_DIR$/src/handlers/xgboost.py</url>
           <line>27</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/source/handlers/xgboost.py</url>
+          <url>file://$PROJECT_DIR$/src/handlers/xgboost.py</url>
           <line>26</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/source/handlers/xgboost.py</url>
+          <url>file://$PROJECT_DIR$/src/handlers/xgboost.py</url>
           <line>20</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/source/handlers/xgboost.py</url>
+          <url>file://$PROJECT_DIR$/src/handlers/xgboost.py</url>
           <line>44</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/source/handlers/xgboost.py</url>
+          <url>file://$PROJECT_DIR$/src/handlers/xgboost.py</url>
           <line>40</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/source/handlers/xgboost.py</url>
+          <url>file://$PROJECT_DIR$/src/handlers/xgboost.py</url>
           <line>45</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/source/handlers/xgboost.py</url>
+          <url>file://$PROJECT_DIR$/src/handlers/xgboost.py</url>
           <line>43</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
@@ -352,5 +359,9 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/generic_python$application.coverage" NAME="application Coverage Results" MODIFIED="1722156136270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/generic_python$app.coverage" NAME="app Coverage Results" MODIFIED="1722156017508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app" />
   </component>
 </project>

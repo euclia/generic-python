@@ -12,7 +12,7 @@ RUN pip install xgboost
 EXPOSE 8002
 
 
-ADD source /generic-python/source
+ADD src /generic-python/source
 ADD application.py /generic-python/application.py
 
 CMD ["python","/generic-python/application.py"]
